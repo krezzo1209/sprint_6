@@ -1,5 +1,5 @@
 import pytest
-from selenium import webdriver  # ✅ Добавлен импорт
+from selenium import webdriver  #  gggg
 from pages.main_page import MainPage
 
 
