@@ -62,6 +62,6 @@ class MainPage(BasePage):
         self.wait_for_element(toggle_locator)
         self.click(toggle_locator)
 
-        # Ждём, пока ответ станет видимым
+
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(answer_locator))
         return self.f
